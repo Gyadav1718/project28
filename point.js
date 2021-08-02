@@ -7,6 +7,7 @@ class Loncher{
             length: 10
         }
         this.pointB = pointB
+        this.bodyA = bodyA
         this.loncher= Constraint.create(options);
         World.add(myWorld, this.loncher);
     }
